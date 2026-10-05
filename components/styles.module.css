@@ -43,7 +43,7 @@
 }
 
 .logo {
-  background: transparent url(../public/images/logo-immigrationNZ.gif) no-repeat;
+  /* background: transparent url(../public/images/logo-immigrationNZ.gif) no-repeat; */
   display: block;
   float: left;
   height: 85px;
@@ -53,7 +53,7 @@
 
 /*Breadscrub*/
 .breadcrumbs {
-  background: #fff url(../public/images/bg-breadcrumb.png) repeat-x;
+  /* background: #fff url(../public/images/bg-breadcrumb.png) repeat-x; */
   text-indent: 10px;
   padding: 10px 0 4px;
   width: 100%;
@@ -66,7 +66,7 @@
 }
 
 .breadcrumbs ul {
-  background: url(../public/images/icon-home.png) no-repeat;
+  /* background: url(../public/images/icon-home.png) no-repeat; */
   margin-left: 30px;
   padding-left: 15px;
   /* width: 820px; */
@@ -81,7 +81,7 @@
 
 .breadcrumbs a:link,
 .breadcrumbs a:visited {
-  background: url(../public/images/arrow-breadcrumb.gif) no-repeat right 0.4em;
+  /* background: url(../public/images/arrow-breadcrumb.gif) no-repeat right 0.4em; */
   color: #666;
   padding-right: 10px;
   text-decoration: underline;
@@ -95,7 +95,7 @@
 }
 
 .innercontainer {
-  background: #fff url(../public/images/bg-shadow.png) repeat-y;
+  /* background: #fff url(../public/images/bg-shadow.png) repeat-y; */
   float: left;
   font-size: 1.1em;
   padding: 0 25px 1em;
@@ -141,7 +141,7 @@
 
 .mainNav ul ul a:link,
 .mainNav ul ul a:visited {
-  background: url(../public/images/arrow.png) no-repeat 0 6px;
+  /* background: url(../public/images/arrow.png) no-repeat 0 6px; */
   color: #4d4d4d;
   font-size: 1em;
   font-weight: normal;
@@ -235,7 +235,7 @@
 /* Footer */
 
 .footer {
-  background: #e6e6e6 url(../public/images/bg-shadow-footer.png) repeat-y;
+  /* background: #e6e6e6 url(../public/images/bg-shadow-footer.png) repeat-y; */
   clear: both;
   height: 34px;
   padding: 0 19px;

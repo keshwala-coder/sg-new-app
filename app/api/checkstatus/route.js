@@ -24,7 +24,7 @@ export async function POST(request) {
         {
           status: 400,
           headers: {
-            "Access-Control-Allow-Origin": allowedOrigin,
+            "Access-Control-Allow-Origin": "*",
           },
         }
       );
