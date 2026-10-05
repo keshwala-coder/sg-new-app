@@ -97,7 +97,7 @@ export default function MainHeader() {
             {/* Desktop Navigation */}
             <div className="hidden items-center gap-8 md:flex font-semibold text-[#444]">
               <Link
-                href="/about-us"
+                href="/about"
                 className="text-[15px] text-[#444] transition-colors hover:text-[#006da8] hover:underline hover:decoration-2 hover:underline-offset-8"
               >
                 About us
