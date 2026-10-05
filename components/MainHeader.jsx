@@ -32,7 +32,7 @@ const navigation = [
   },
   {
     label: "About Us",
-    href: "/about-us",
+    href: "/about",
   },
 ];
 
@@ -58,7 +58,7 @@ export default function MainHeader() {
 
   // Close menu when Escape is pressed
   useEffect(() => {
-    function handleEscape(event: KeyboardEvent) {
+    function handleEscape(event) {
       if (event.key === "Escape") {
         setMobileOpen(false);
       }
