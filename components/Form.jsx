@@ -21,7 +21,7 @@ export default function Form({ onSubmitForm, noMatchData, loadingState }) {
     passportNum: "",
     nationality: "",
     dob: "",
-    gender: "",
+    gender: "",           
     startDate: ""
   });
 
