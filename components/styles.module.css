@@ -1,0 +1,846 @@
+.mainHeader {
+  background: #0099cc;
+}
+
+.pageWrapper {
+  background: #fff repeat-y 163px 0;
+  margin: auto;
+  position: relative;
+  width: 820px;
+}
+
+.header {
+  background: #0099cc none;
+  height: 115px;
+  position: relative;
+  width: 100%;
+}
+
+.header ul {
+  bottom: 15px;
+  font-size: 1.2em;
+  position: absolute;
+  right: 10px;
+}
+
+.header ul li {
+  float: left;
+  list-style: none none;
+  margin-right: 15px;
+}
+
+.header a,
+.header a:link,
+.header a:visited {
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.hidden {
+  margin: -9999px;
+  position: absolute;
+}
+
+.logo {
+  background: transparent url(../public/images/logo-immigrationNZ.gif) no-repeat;
+  display: block;
+  float: left;
+  height: 85px;
+  margin: 20px 25px 0;
+  width: 400px;
+}
+
+/*Breadscrub*/
+.breadcrumbs {
+  background: #fff url(../public/images/bg-breadcrumb.png) repeat-x;
+  text-indent: 10px;
+  padding: 10px 0 4px;
+  width: 100%;
+  border-bottom: 1px solid #aaa;
+}
+
+.breadcrumbsMain {
+  margin: auto;
+  width: 820px;
+}
+
+.breadcrumbs ul {
+  background: url(../public/images/icon-home.png) no-repeat;
+  margin-left: 30px;
+  padding-left: 15px;
+  /* width: 820px; */
+}
+
+.breadcrumbs li {
+  display: inline;
+  font-size: 1.2em;
+  list-style-type: none;
+  margin-right: 3px;
+}
+
+.breadcrumbs a:link,
+.breadcrumbs a:visited {
+  background: url(../public/images/arrow-breadcrumb.gif) no-repeat right 0.4em;
+  color: #666;
+  padding-right: 10px;
+  text-decoration: underline;
+}
+
+/* InnerContainer */
+
+.mainInnerContainer {
+  margin: auto;
+  width: 820px;
+}
+
+.innercontainer {
+  background: #fff url(../public/images/bg-shadow.png) repeat-y;
+  float: left;
+  font-size: 1.1em;
+  padding: 0 25px 1em;
+  position: relative;
+  width: 820px;
+}
+
+.mainNav {
+  float: left;
+  margin-top: 1em;
+  padding-bottom: 0.5em;
+  width: 163px;
+}
+
+.mainNav ul {
+  float: left;
+  text-align: left;
+  width: 153px;
+}
+
+.mainNav li {
+  float: left;
+  list-style: none;
+}
+
+.mainNav a:link,
+.mainNav a:visited {
+  color: #0099cc;
+  display: block;
+  float: left;
+  font-size: 1.1em;
+  font-weight: bold;
+  padding: 2px 0 2px 10px;
+  text-decoration: none;
+  width: 135px;
+}
+
+.mainNav ul ul,
+.mainNav ul ul {
+  margin: 0 0 0 10px;
+  padding: 0;
+}
+
+.mainNav ul ul a:link,
+.mainNav ul ul a:visited {
+  background: url(../public/images/arrow.png) no-repeat 0 6px;
+  color: #4d4d4d;
+  font-size: 1em;
+  font-weight: normal;
+  padding-left: 12px;
+}
+
+.login {
+  border: 1px dashed #ccc;
+  border-top: 0;
+  float: right;
+  margin: 0 1em 0 0.75em;
+  padding: 1em 0;
+  width: 275px;
+}
+
+.login div {
+  clear: both;
+  padding: 0 1em;
+}
+
+.login span.fauxLabel {
+  display: inline-block;
+  font-weight: normal;
+  width: 8em;
+}
+
+.login span {
+  float: left;
+  font-weight: bold;
+  padding-bottom: 0.5em;
+  width: 11em;
+  -ms-word-break: normal;
+  -moz-word-break: normal;
+  -o-word-break: normal;
+  -webkit-hyphens: auto;
+  -moz-hyphens: none;
+  hyphens: auto;
+}
+
+.login a:link,
+.login a:visited {
+  color: #336699;
+  float: right;
+  position: relative;
+}
+
+.firstLogin {
+  float: left;
+}
+
+.firstLogin span {
+  width: 11.2em;
+}
+
+.firstLogin span.fauxLabel {
+  width: 6em;
+}
+
+.firstLogin .firstLoginFont {
+  font-size: 12px;
+}
+
+.content {
+  float: right;
+  margin: 10px 0.5em 90px 0;
+  position: relative;
+  width: 590px;
+}
+
+.content h1 {
+  color: #0099cc;
+  font: normal 2em verdana, geneva, sans-serif;
+  line-height: 28px;
+  margin-bottom: 5px;
+}
+
+.content h2 {
+  float: left;
+  font-size: 1em;
+  margin: 1em 0 0.5em;
+  width: 100%;
+  font-weight: 700;
+}
+
+.content p {
+  clear: both;
+  margin-bottom: 1em;
+  position: relative;
+}
+
+/* Footer */
+
+.footer {
+  background: #e6e6e6 url(../public/images/bg-shadow-footer.png) repeat-y;
+  clear: both;
+  height: 34px;
+  padding: 0 19px;
+  width: 820px;
+  margin: auto;
+}
+
+.footer ul {
+  border: 1px solid #bbb;
+  border-width: 1px 0;
+  float: left;
+  padding-top: 10px;
+  width: 782px;
+}
+
+.footer li {
+  float: left;
+  font-size: 1.1em;
+  line-height: 0.7;
+  list-style: none;
+  padding-bottom: 10px;
+}
+
+li.last,
+li.last a,
+li.last a:link,
+li.last a:visited {
+  border: 0;
+}
+
+.footer a,
+.footer a:link,
+.footer a:visited {
+  color: #4d4d4d;
+  /* padding: 0 5px; */
+  text-decoration: none;
+}
+
+.footer img {
+  margin: -18px 7px 0;
+}
+
+.footer .pdlft5 {
+  padding-left: 5px;
+}
+
+.footer .pdrt5 {
+  padding-right: 5px;
+}
+
+/* form */
+
+.form {
+  float: left;
+  margin-bottom: 1em;
+  width: 100%;
+}
+
+.form legend {
+  margin: -9999px;
+  position: absolute;
+}
+
+.form .div {
+  float: left;
+  padding-bottom: 0.5em;
+  width: 100%;
+}
+
+.form label,
+.form span.fauxLabel {
+  color: #333;
+  display: inline-block;
+  padding: 0.2em 0 0.2em 2em;
+  width: 14em;
+}
+
+.form label span,
+.form .fauxLabel span,
+span.mandatory {
+  color: #ff0000;
+  float: none;
+  padding-left: 0.25em;
+}
+
+.form input {
+  margin-right: 0.25em;
+  width: 18em;
+  border: 1px solid #aaa;
+  padding: 3px;
+  border-radius: 3px;
+}
+
+.hasButton label,
+.hasButton select {
+  float: left;
+}
+
+.form select {
+  width: 18em;
+  border: 1px solid #aaa;
+  padding: 3px;
+  border-radius: 3px;
+}
+
+.form input.medium {
+  width: 8.5em;
+  height: 20px;
+}
+
+.form .dob {
+  display: flex;
+}
+
+.form select.small {
+  width: 8.5em;
+}
+
+.visaconsent {
+  margin-top: 15px;
+}
+
+.visaconsent input {
+  width: 15px;
+  margin-left: 10px;
+}
+
+.visaconsent label {
+  width: 280px;
+  padding: 0px;
+}
+
+.buttons {
+  float: left;
+  height: 26px;
+  margin: 2em 0;
+  width: 100%;
+}
+
+.buttons a {
+  border-style: none;
+  border-color: inherit;
+  border-width: 0;
+  background-color: #0099cc;
+  color: #fff;
+  cursor: pointer;
+  float: left;
+  font: bold 1em verdana;
+  padding: 5px 7px;
+  overflow: visible;
+  width: auto;
+  margin-left: 5px;
+  margin-right: 0;
+  margin-top: 0;
+  text-decoration: none;
+}
+
+.form .column {
+  float: left;
+  width: 45%;
+}
+
+.form span {
+  color: #336699;
+  float: left;
+  padding: 0.2em 0;
+}
+
+.column span {
+  width: 10em;
+}
+
+/*
+.buttons
+{
+  float: left;
+  height: 26px;
+  margin: 2em 0;
+  width: 100%;
+}*/
+
+.buttons input {
+  border-style: none;
+  border-color: inherit;
+  border-width: 0;
+  background-color: #0099cc;
+  color: #fff;
+  cursor: pointer;
+  float: left;
+  font: bold 1em verdana;
+  padding: 5px 7px;
+  overflow: visible;
+  width: auto;
+  margin-left: 5px;
+  margin-right: 0;
+  margin-top: 0;
+}
+
+/* Error */
+
+.error {
+  float: left;
+  width: 100%;
+}
+
+.error ul {
+  background-color: #ffe1ff;
+  clear: both;
+  color: #ff0000;
+  margin-bottom: 1em;
+  padding: 2em;
+  width: 90%;
+}
+
+.error li {
+  list-style-type: circle;
+}
+
+.dnone {
+  display: none;
+}
+
+.dblock {
+  display: block;
+}
+
+.form .datepicker {
+  width: 8.5em !important;
+  margin-right: 0.25em;
+}
+
+.form .datepicker .datePickerwrapper {
+  width: 8.5em !important;
+}
+
+@keyframes placeHolderShimmer {
+  0% {
+    background-position: -800px 0;
+  }
+  100% {
+    background-position: 800px 0;
+  }
+}
+
+.animatedBackground {
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-name: placeHolderShimmer;
+  animation-timing-function: linear;
+  background-color: #f6f7f8;
+  background: linear-gradient(to right, #eeeeee 8%, #e4e2e2e1 18%, #eeeeee 33%);
+  background-size: 800px 104px;
+  border: 0;
+}
+
+.animatedBackgroundForD {
+  height: 18px;
+  width: 110px;
+  margin-top: 3px;
+}
+
+.animatedBackgroundForVC {
+  width: 100%;
+  height: 100px;
+}
+
+.loginHeaderMain {
+  /*height: 7.813rem;*/
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+
+/*.realImglogo {
+  width: 280px;
+  padding-top: 0;
+  margin: 0 1rem 0 0 !important;
+  object-fit: contain;
+}*/
+
+.agencyLogo {
+  /*height: 2.375rem;*/
+  background-repeat: no-repeat;
+  background-position: 100%;
+  flex: 1 0 auto;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.agencyLogoImg {
+  float: right;
+}
+
+.footerLogin {
+  font-family: Inter !important;
+}
+
+.footerLogin .footerInnerL .footerNavL .a {
+  color: #fff;
+  display: block;
+  line-height: 2rem;
+  font-size: 0.8125rem;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.footerLogin .footerInnerL .footerNavL .a:hover {
+  text-decoration: underline;
+  line-height: 2rem;
+}
+
+.footerLogin .copyright {
+  color: #fff;
+  font-size: 0.875rem;
+}
+
+.footerLogin hr {
+  border: 0.5px solid #fff;
+  margin: 1.625rem 0;
+  height: 0;
+}
+
+/* Login Styles body part */
+.lcMian {
+  color: #000;
+  line-height: 1.5;
+  min-height: 100vh;
+  font-size: 0.938rem;
+}
+
+.lcForm .lcEntry {
+  position: relative;
+}
+
+.lcForm .lcEntryItem {
+  position: relative;
+}
+
+.lcForm .lcInput {
+  background-color: #f2f2f2 !important;
+  border: 1px solid #d1d1d1;
+  border-radius: 1rem;
+  box-sizing: border-box;
+  color: #000;
+  font-family: Inter;
+  font-size: 0.938rem;
+  height: 3.25rem;
+  padding-left: 1rem;
+  width: 100%;
+}
+
+div.attrEntry > input[type="text"]:placeholder-shown:not(:focus) + label,
+div.attrEntry > input[type="password"]:placeholder-shown:not(:focus) + label,
+div.lcEntryItem > input[type="text"]:placeholder-shown:not(:focus) + label,
+div.lcEntryItem > input[type="password"]:placeholder-shown:not(:focus) + label {
+  font-size: 0.938rem;
+  top: 0.875rem;
+}
+
+div.attrEntry > select + label,
+div.attrEntry > input[type="text"] + label,
+div.attrEntry > input[type="password"] + label,
+div.lcEntryItem  > input[type="text"] + label,
+div.lcEntryItem > input[type="password"] + label {
+  position: absolute;
+  top: 0.1875rem;
+  left: 1rem;
+  font-size: 0.75rem;
+  font-weight: 400;
+  pointer-events: none;
+  transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -webkit-transition: 0.2s ease all;
+}
+
+
+.lcBtn {
+  font-size: .9rem;
+  box-sizing: border-box;
+  cursor: pointer;
+  font-weight: 600;
+  margin-top: 1.5rem;
+  display: inline-block;
+  border-radius: 1rem;
+  padding: .8rem 5rem .8rem 1rem;
+  text-align: left;
+  width: 15rem;
+  height: 3.25rem;
+  line-height: 1.6rem;
+  white-space: nowrap;
+  text-decoration: none !important;
+  vertical-align: middle;
+}
+
+.lcBtnIcon {
+  display: flex !important;
+}
+
+.lcBtnIcon section {
+  display: flex;
+}
+
+button.lcBtn.lcPrimary {
+  color: #fff;
+  background-color: #d64309;
+  border: none;
+}
+
+.lcBtn.lcPrimary {
+  color: #fff;
+  background-color: #d64309;
+  border: none;
+}
+
+.lcImgIcon {
+  width: 25px !important;
+  height: 25px !important;
+  margin-right: .6rem;
+}
+
+/* Banner Message */
+
+.lcBannerMessage {
+  font-family: Inter;
+  font-size: .938rem;
+  font-weight: 400;
+  background-color: #f2f2f2;
+  color: #4c4c4c;
+  display: flex;
+  flex-flow: column nowrap;
+  padding-top: .8125rem;
+  padding-bottom: .875rem;
+}
+
+.lcBannerMessage .innerLc {
+  font-size: .938rem;
+  /* max-width: 45rem; */
+  display: flex;
+  align-items: center;
+  padding: 0.6rem 0;
+}
+
+.lcBannerMessage .lcBackIcon {
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: 0;
+  width: 1.6rem;
+  height: 1.6rem;
+  background-image: url(https://config.realme.govt.nz/b2c-ui/images/icons/left_arrow_Icon_RealMe.png);
+  background-size: 22px;
+  background-repeat: no-repeat;
+}
+
+.lcBannerMessage .lcReturnLink {
+  font-weight: 600;
+  padding-left: .9375rem;
+  margin-left: 1rem;
+}
+
+.lcBannerMessage .a {
+  color: #4c4c4c;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+.lcBannerMessage .a:hover {
+  text-decoration: underline;
+}
+
+.rcBtn {
+  font-size: .9rem;
+  box-sizing: border-box;
+  cursor: pointer;
+  font-weight: 600;
+  margin-top: 1.5rem;
+  display: inline-block;
+  border-radius: 1rem;
+  padding: .8rem 5rem .8rem 1rem;
+  text-align: left;
+  width: 15rem;
+  height: 3.25rem;
+  line-height: 1.6rem;
+  white-space: nowrap;
+  text-decoration: none !important;
+  vertical-align: middle;
+}
+
+.attributeList {
+  line-height: 1.5;
+}
+
+.attributeList ul.listStyleRedDot li {
+  list-style: none;
+  background: url(https://config.realme.govt.nz/b2c-ui/images/icons/bullet-points/red-disc.svg) no-repeat 0 .5rem;
+  padding-left: 1rem;
+}
+
+.rcInput {
+  background-color: #f2f2f2 !important;
+  border: 1px solid #d1d1d1;
+  border-radius: 1rem;
+  box-sizing: border-box;
+  color: #000;
+  font-family: Inter;
+  font-size: 0.938rem;
+  height: 3.25rem;
+  padding-left: 1rem;
+  width: 100%;
+}
+
+/* div.attrEntry > input[type="text"]:placeholder-shown:not(:focus) + label,
+div.attrEntry > input[type="password"]:placeholder-shown:not(:focus) + label {
+  font-size: 0.938rem;
+  top: 0.875rem;
+}
+
+div.attrEntry > select + label,
+div.attrEntry > input[type="text"] + label,
+div.attrEntry > input[type="password"] + label {
+  position: absolute;
+  top: 0.1875rem;
+  left: 1rem;
+  font-size: 0.75rem;
+  font-weight: 400;
+  pointer-events: none;
+  transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -webkit-transition: 0.2s ease all;
+} */
+div.attrEntry {
+  position: relative;
+}
+
+div.attrEntry>input[type=text]:placeholder-shown:not(:focus)+label, div.attrEntry>input[type=password]:placeholder-shown:not(:focus)+label, div.entry-item>input[type=text]:placeholder-shown:not(:focus)+label, div.entry-item>input[type=password]:placeholder-shown:not(:focus)+label {
+  font-size: .938rem;
+  top: .875rem;
+}
+div.attrEntry>select+label, div.attrEntry>input[type=text]+label, div.attrEntry>input[type=password]+label, div.entry-item>input[type=text]+label, div.entry-item>input[type=password]+label {
+  position: absolute;
+  top: .1875rem;
+  left: 1rem;
+  font-size: .75rem;
+  font-weight: 400;
+  pointer-events: none;
+  transition: .2s ease all;
+  -moz-transition: .2s ease all;
+  -webkit-transition: .2s ease all;
+}
+
+ul.listStyleRedDot li {
+  list-style: none;
+  background: url(https://config.realme.govt.nz/b2c-ui/images/icons/bullet-points/red-disc.svg) no-repeat 0 .5rem;
+  padding-left: 1rem;
+}
+
+.forgotUNP .accountButton {
+  display: inline;
+  font-family: inter;
+  color: #d64309;
+  font-weight: 400;
+  text-decoration: none;
+  background: 0 0 !important;
+  border: none;
+  padding: 0 !important;
+  cursor: pointer;
+  font-size: 100%;
+}
+
+.forgotUNP .accountButton:hover {
+  text-decoration: underline;
+}
+
+.working {
+  background: url(data:image/gif;base64,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) no-repeat;
+  background-image: url(data:image/gif;base64,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);
+  background-position-x: center;
+  background-position-y: bottom;
+  background-size: initial;
+  background-repeat: no-repeat;
+  background-attachment: initial;
+  background-origin: initial;
+  background-clip: initial;
+  background-color: initial;
+  height: 30px;
+  width: auto;
+  background-position: 50% 100%;
+}
+
+.bannerMessageIcon {
+  background-image: url('https://config.realme.govt.nz/b2c-ui/images/icons/icon-error.svg');
+  position: absolute;
+    display: block;
+    font: 0 / 0 a;
+    color: transparent;
+    text-shadow: none;
+    background-color: transparent;
+    border: 0;
+    background-repeat: no-repeat;
+    background-position: 0;
+    width: 1.5rem;
+    height: 1.8rem;
+}
+
+.lcMain input {
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-size: 1rem !important;
+}

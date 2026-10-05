@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: #e6e6e6 repeat-x;
+  color: #4d4d4d;
+  font: normal 62.5%/1.5em verdana, geneva, sans-serif;
+}
+
+a, a:visited {
+  color: #000;
+text-decoration: underline;
+}
+
+a:hover {
+  color: #006699;
+text-decoration: underline;
+}
+
+fieldset {
+  width: 99%;
+}
